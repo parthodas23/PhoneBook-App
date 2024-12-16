@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  height: 540px;
+  width: 350px;
+  border: 2px solid rgba(136, 133, 133, 0.151);
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgb(238, 238, 223);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.416),
+    0 6px 20px 0 rgba(0, 0, 0, 0.345);
+}
+h1 {
+  color: rgb(236, 141, 16);
+}
+img {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+.new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.find {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.search {
+  border: 1px solid rgba(78, 76, 76, 0.231);
+  border-radius: 7px;
+  padding: 7px 7px;
+}
+.search-btn {
+  padding: 2px 10px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(206, 94, 237);
+  cursor: pointer;
+}
+.add-contact {
+  padding: 7px 23px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(2, 184, 2, 0.941);
+  cursor: pointer;
+}
+.add {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.name {
+  margin-left: 10px;
+}
+.delete{
+    padding: 5px 14px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(237, 41, 41, 0.897);
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+button:active {
+  filter: brightness(80%);
+}
+
+.container2 {
+    height: 350px;
+    width: 280px;
+    border: 2px solid rgba(136, 133, 133, 0.151);
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(238, 238, 223);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.416),
+      0 6px 20px 0 rgba(0, 0, 0, 0.345);
+  }
+  .hide{
+      display: none;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .pp {
+    text-align: start;
+    margin-left: 48px;
+    margin-top: 20px;
+    color: rgb(137, 143, 143);
+  }
+  .inp {
+    border: 1px solid rgba(78, 76, 76, 0.231);
+    border-radius: 7px;
+    padding: 7px 38px;
+  }
+  .submit {
+    margin-top: 10px;
+    background-color: rgb(22, 198, 22);
+    border: 1px solid rgba(78, 76, 76, 0.231);
+    padding: 7px 30px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .message{
+      margin-bottom: 5px;
+  }
+  
